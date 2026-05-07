@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Project Path="RetoTecnico.API/RetoTecnico.API.csproj" />
+  <Project Path="RetoTecnico.Application/RetoTecnico.Application.csproj" />
+  <Project Path="RetoTecnico.Domain/RetoTecnico.Domain.csproj" />
+  <Project Path="RetoTecnico.Infrastructure/RetoTecnico.Infrastructure.csproj" />
+</Solution>
