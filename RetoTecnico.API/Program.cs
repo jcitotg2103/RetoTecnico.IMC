@@ -31,6 +31,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // INYECCIÓN DE DEPENDENCIAS 
 builder.Services.AddScoped<IEvaluacionRepository, EvaluacionRepository>();
+builder.Services.AddScoped<IRangoRepository, RangoRepository>();
 builder.Services.AddScoped<ImcService>();
 
 // CONFIGURACIÓN SEGURIDAD JWT
