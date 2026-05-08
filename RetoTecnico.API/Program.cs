@@ -84,6 +84,14 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
+app.UseCors(options =>
+{
+    options.AllowAnyOrigin();
+    options.AllowAnyMethod();
+    options.AllowAnyHeader();
+});
+// -----------------------------------------------------
+
 // MIDDLEWARE DE ERRORES GLOBAL
 app.UseMiddleware<ErrorHandlerMiddleware>();
 
